@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 
 export default function HomePage() {
+    const BASE_URL = import.meta.env.BASE_URL;
+
     return (
         <div className="main photo-name">
             <div className="name-link">
@@ -22,7 +24,7 @@ export default function HomePage() {
                     My Projects &rarr;
                 </Link>
             </div>            
-            <img src="portfolio/src/assets/photo_WK.jpeg" className="twk-photo" alt="Teo Wen Kai's Photo" height="300" width="300"/>
+            <img src={BASE_URL + "src/assets/photo_WK.jpeg"} className="twk-photo" alt="Teo Wen Kai's Photo" height="300" width="300"/>
         </div>
     );
 };
