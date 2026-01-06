@@ -15,7 +15,7 @@ const articles = [
             "Behance": "https://www.behance.net/gallery/162828299/Epilepsy-Guard-App-UI?tracking_source=search_projects|epilepsy+guard&l=1"
         },
         image: [
-            BASE_URL + "images/epilepsyGuard.png"
+            BASE_URL + "/images/epilepsyGuard.png"
         ]
     },
     {
@@ -31,7 +31,7 @@ const articles = [
             "Dribbble": "https://dribbble.com/shots/25377634-Emcolour-Me-A-Chrome-Extension"
         },
         image: [
-            BASE_URL + "images/emcolourMe.png"
+            BASE_URL + "/images/emcolourMe.png"
         ]
     },
     {
@@ -47,7 +47,7 @@ const articles = [
             "Dribbble": "https://dribbble.com/shots/25379030-SwipeWork-App-Concept"
         },
         image: [
-            BASE_URL + "images/SwipeWork.png"
+            BASE_URL + "/images/SwipeWork.png"
         ]
     },
 ];
