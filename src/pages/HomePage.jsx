@@ -24,7 +24,7 @@ export default function HomePage() {
                     My Projects &rarr;
                 </Link>
             </div>            
-            <img src={BASE_URL + "src/assets/photo_WK.jpeg"} className="twk-photo" alt="Teo Wen Kai's Photo" height="300" width="300"/>
+            <img src={BASE_URL + "images/photo_WK.jpeg"} className="twk-photo" alt="Teo Wen Kai's Photo" height="300" width="300"/>
         </div>
     );
 };
