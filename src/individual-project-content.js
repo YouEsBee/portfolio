@@ -1,3 +1,5 @@
+const BASE_URL = import.meta.env.BASE_URL;
+
 const articles = [
     {
         name: 'epilepsy-guard',
@@ -13,7 +15,7 @@ const articles = [
             "Behance": "https://www.behance.net/gallery/162828299/Epilepsy-Guard-App-UI?tracking_source=search_projects|epilepsy+guard&l=1"
         },
         image: [
-            "/portfolio/src/assets/epilepsyGuard.png"
+            BASE_URL + "images/epilepsyGuard.png"
         ]
     },
     {
@@ -29,7 +31,7 @@ const articles = [
             "Dribbble": "https://dribbble.com/shots/25377634-Emcolour-Me-A-Chrome-Extension"
         },
         image: [
-            "/portfolio/src/assets/emcolourMe.png"
+            BASE_URL + "images/emcolourMe.png"
         ]
     },
     {
@@ -45,7 +47,7 @@ const articles = [
             "Dribbble": "https://dribbble.com/shots/25379030-SwipeWork-App-Concept"
         },
         image: [
-            "/portfolio/src/assets/SwipeWork.png"
+            BASE_URL + "images/SwipeWork.png"
         ]
     },
 ];
