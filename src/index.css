@@ -1,0 +1,398 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+.home {
+    font-size: 3.5em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    margin-right: 7em;
+}
+
+.photo-name {
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    display: flex;
+    transform: translateY(20%)
+}
+
+#post-list {
+    padding: 0;
+    margin: 0;
+}
+
+.proj-link-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.proj-link-div {
+    display: block;
+    position: relative;
+    width: 30%;
+    height: 325px;
+    padding: 2em;
+    padding-left: 0;
+}
+
+.proj-title {
+    position: absolute;
+    bottom: 0;
+}
+
+.proj-link-img {
+    width: 100%
+}
+
+.proj-desc {
+    text-align: left;
+}
+
+.proj-img {
+    width: 40%
+}
+
+.btn-proj-back {
+    text-decoration: none;
+}
+
+.about-socials {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.main {
+    font-family: "Montserrat", sans-serif;
+    padding: 1em;
+    margin: 0.5em;
+}
+
+th, td {
+    padding: 15px;
+}
+
+@media (prefers-color-scheme: light) {
+    h1, h2 {
+        color: #0a0e73;
+    }
+
+    .btn-learn {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 550;
+        background-color: #565bbd;
+        display: inline-block;
+        min-width: 8em;
+        border-radius: 0.5em;
+        padding: 0.5em;
+        margin-right: 1em;
+    }
+
+    .btn-learn:hover {
+        color: rgb(226, 226, 226);
+        font-family: "Montserrat", sans-serif;
+        background-color: #454893;
+    }
+
+    .navbar {
+        font-family: "Montserrat", sans-serif;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar li a {
+        display: block;
+        background-color: transparent;
+        border-radius: 0.5em;
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar li a:hover {
+        color:#0a0e73;
+        background-color: #dedfff;
+        font-weight: bold;
+    }
+
+    .navbar .left {
+        color: #0a0e73;
+        font-weight: bold;
+        position: absolute;
+        left: 10px;
+    }
+
+    .navbar .left a:hover {
+        color:#0a0e73;
+        background-color: transparent;
+        font-weight: bolder;
+    }
+
+    .navbar .github {
+        color: #0a0e73;
+        font-weight: bold;
+        font-size: 1.2em;
+        position: absolute;
+        right: 100px;
+        margin: 5px;
+    }
+
+    .navbar .linkedin {
+        color: #0a0e73;
+        font-weight: bold;
+        font-size: 1.2em;
+        position: absolute;
+        right: 50px;
+        margin: 5px;
+    }
+
+    .navbar .dribbble {
+        color: #0a0e73;
+        font-weight: bold;
+        font-size: 1.2em;
+        position: absolute;
+        right: 0px;
+        margin: 5px;
+    }
+
+    .navbar .right a:hover {
+        color:#0a0e73;
+        background-color: #dedfff;
+        font-weight: bolder;
+    }
+
+    .home-highlight {
+        color: #0a0e73;
+        font-weight: bold;
+    }
+
+    .home-desc {
+        color: #666666;
+        font-size: 1.5em;
+        margin-bottom: 0.2em;
+    }
+
+    .home-desc-para {
+        color: #666666;
+        margin-top: 2em;
+        margin-bottom: 0.2em;
+    }
+
+    .btn-my-proj {
+        display: block;
+        color: #0a0e73;
+        text-decoration: none;
+        font-weight:500;
+        margin-top: 5em;
+    }
+
+    .btn-my-proj:hover {
+        color: #0a0e73;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+
+    .twk-photo {
+        border-radius: 50%;
+        border-style: solid;
+        border-color: #0E14A2;
+    }
+
+    .proj-link {
+        text-decoration: none;
+        color: #0a0e73;
+    }
+
+    table, th, td {
+        font-family: "Montserrat", sans-serif;
+        border: 1px solid rgb(0, 0, 0);
+        border-collapse: collapse;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    h1, h2 {
+        color: #a4a7f5;
+    }
+    .btn-learn {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 550;
+        background-color: #565bbd;
+        display: inline-block;
+        min-width: 8em;
+        border-radius: 0.5em;
+        padding: 0.5em;
+        margin-right: 1em;
+    }
+
+    .btn-learn:hover {
+        color: rgb(226, 226, 226);
+        font-family: "Montserrat", sans-serif;
+        background-color: #454893;
+    }
+
+    .navbar {
+        font-family: "Montserrat", sans-serif;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar li a {
+        display: block;
+        background-color: transparent;
+        border-radius: 0.5em;
+        color: #a4a7f5;
+        padding: 14px 16px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar li a:hover {
+        color:#0a0e73;
+        background-color: #dedfff;
+        font-weight: bold;
+    }
+
+    .navbar .left {
+        color: #a4a7f5;
+        font-weight: bold;
+        position: absolute;
+        left: 10px;
+    }
+
+    .navbar .left a:hover {
+        color:#a4a7f5;
+        background-color: transparent;
+        font-weight: bolder;
+    }
+
+    .navbar .github {
+        color: #a4a7f5;
+        font-weight: bold;
+        font-size: 1.2em;
+        position: absolute;
+        right: 100px;
+        margin: 5px;
+    }
+
+    .navbar .linkedin {
+        color: #a4a7f5;
+        font-weight: bold;
+        font-size: 1.2em;
+        position: absolute;
+        right: 50px;
+        margin: 5px;
+    }
+
+    .navbar .dribbble {
+        color: #a4a7f5;
+        font-weight: bold;
+        font-size: 1.2em;
+        position: absolute;
+        right: 0px;
+        margin: 5px;
+    }
+
+    .navbar .right a:hover {
+        color:#0a0e73;
+        background-color: #dedfff;
+        font-weight: bolder;
+    }
+
+    .home-highlight {
+        color: #a4a7f5;
+        font-weight: bold;
+    }
+
+    .home-desc {
+        color: #ababab;
+        font-size: 1.5em;
+        margin-bottom: 0.2em;
+    }
+
+    .home-desc-para {
+        color: #ababab;
+        margin-top: 2em;
+        margin-bottom: 0.2em;
+    }
+
+    .btn-my-proj {
+        display: block;
+        color: #a4a7f5;
+        text-decoration: none;
+        font-weight:500;
+        margin-top: 5em;
+    }
+
+    .btn-my-proj:hover {
+        color: #a4a7f5;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+
+    .twk-photo {
+        border-radius: 50%;
+        border-style: solid;
+        border-color: #a4a7f5;
+    }
+
+    .proj-link {
+        text-decoration: none;
+        color: #a4a7f5;
+    }
+
+    table, th, td {
+        font-family: "Montserrat", sans-serif;
+        border: 1px solid rgb(255, 255, 255);
+        border-collapse: collapse;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
