@@ -16,11 +16,81 @@ body {
     padding: 0
 }
 
-.home {
-    font-size: 3.5em;
-    margin-top: 0.2em;
-    margin-bottom: 0.2em;
-    margin-right: 7em;
+@media only screen and (orientation: portrait) {
+    .home {
+        font-size: 3.5em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+    .twk-photo {
+        display: none;
+    }
+    .proj-link-div {
+        display: block;
+        position: relative;
+        width: 30%;
+        height: 200px;
+        padding: 2em;
+        padding-left: 0;
+    }
+    .proj-img {
+        width: 100%
+    }
+    .github, .linkedin, .dribbble {
+        display: none;
+    }
+    .nav-responsive {
+        align-items: right;
+        justify-content: right;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    .home {
+        font-size: 3.5em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        margin-right: 2em;
+    }
+    .proj-link-div {
+        display: block;
+        position: relative;
+        width: 30%;
+        height: 325px;
+        padding: 2em;
+        padding-left: 0;
+    }
+    .proj-img {
+        width: 40%
+    }
+    .nav-responsive {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1224px) {
+    .home {
+        font-size: 3.5em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        margin-right: 7em;
+    }
+    .proj-link-div {
+        display: block;
+        position: relative;
+        width: 30%;
+        height: 325px;
+        padding: 2em;
+        padding-left: 0;
+    }
+    .proj-img {
+        width: 40%
+    }
+    .nav-responsive {
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .photo-name {
@@ -42,15 +112,6 @@ body {
     justify-content: space-between;
 }
 
-.proj-link-div {
-    display: block;
-    position: relative;
-    width: 30%;
-    height: 325px;
-    padding: 2em;
-    padding-left: 0;
-}
-
 .proj-title {
     position: absolute;
     bottom: 0;
@@ -62,10 +123,6 @@ body {
 
 .proj-desc {
     text-align: left;
-}
-
-.proj-img {
-    width: 40%
 }
 
 .btn-proj-back {
@@ -119,8 +176,6 @@ th, td {
         padding: 0;
         display: flex;
         width: 100%;
-        justify-content: center;
-        align-items: center;
     }
 
     .navbar li a {
@@ -265,8 +320,6 @@ th, td {
         padding: 0;
         display: flex;
         width: 100%;
-        justify-content: center;
-        align-items: center;
     }
 
     .navbar li a {

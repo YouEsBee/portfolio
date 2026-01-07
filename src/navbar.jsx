@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function NavBar() {
     return (
         <nav>
-            <ul class="navbar">
+            <ul class="navbar nav-responsive">
                 <li class="left">
                     <Link to='/portfolio'>TEO WEN KAI</Link>
                 </li>
