@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+    <!-- Tailwind Play CDN (to support your original tailwind classes) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body {
+            font-family: 'DM Mono', monospace;
+        }
+        /* Custom scrollbar for a cleaner look if needed */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1b1b1b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #6D75BB;
+        }
+    </style>
+</head>
+<body class="bg-[#1b1b1b] text-white">
+
+    <div class="h-screen flex flex-col justify-center items-start p-20">
+        <div class="py-10 text-3xl font-medium">
+            <h1>/page-not-found</h1>
+            <h1 class="text-5xl">404</h1>
+        </div>
+        
+        <p class="py-10 text-lg">
+            Nothing to see here. Have you typed the URL wrongly?
+        </p>
+        
+        <a href="/portfolio" class="text-[#6D75BB] hover:text-gray-300 transition-colors duration-300">
+            Return to my portfolio homepage &#x2197;
+        </a>
+    </div>
+
+</body>
+</html>
