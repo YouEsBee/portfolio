@@ -1,48 +1,9 @@
 export default function AboutPage() {
     return (
         <>
-            <div id="tldr" className="main tldr-about-me">
-                <h2>TLDR;</h2>
+            <div id="about" className="dark:bg-[#1b1b1b] dark:text-white">
+                <h1 className="pb-10 text-3xl font-medium">/About</h1>
                 <p>
-                    Looking to specialise in front-end web and mobile development!
-                </p>
-
-                <table className="proficiency-table">
-                    <tr>
-                        <th>Proficiency</th>
-                        <th>Language</th>
-                        <th>Projects</th>
-                    </tr>
-                    <tr>
-                        <td>Intermediate</td>
-                        <td>Python</td>
-                        <td>PROTEEN - SUTD CTD 1D Project</td>
-                    </tr>
-                    <tr>
-                        <td>Novice</td>
-                        <td>Javascript + React</td>
-                        <td>
-                            <ul>
-                                <li>
-                                    This Website!
-                                </li>
-                                <li>
-                                    Emcolour Me
-                                </li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Novice</td>
-                        <td>Swift</td>
-                        <td>Epilepsy Guard</td>
-                    </tr>
-                </table>
-            </div>
-
-            <div id="about" className="main my-story">
-                <h2>More about myself</h2>
-                <p> 
                     I am an undergraduate student studying at the Singapore University of Technology and Design (SUTD).
                     Having explored the different domains within the tech industry, I have decided to specialise in software engineering.<br/><br/>
                     With technological advancements, more can be done to help others.
@@ -51,24 +12,21 @@ export default function AboutPage() {
                     <a class="about-socials" href="https://www.linkedin.com/in/teo-wen-kai-3264a91aa/" target="_blank">
                         <i class="fa-brands fa-linkedin"></i>LinkedIn
                     </a> &nbsp; page!
-                    <br/><br/>
-                    Fun Fact: I'm a tech enthusiast and I used to make YouTube tech videos!
                 </p>
             </div>
 
-            <div className="main">
-                <h2>Want to connect?</h2>
-                <p>
-                    Let's talk on &nbsp;
+            <div className="dark:bg-[#1b1b1b] dark:text-white py-15">
+                <h2 className="text-xl font-medium">
+                    Connect with me:
+                    &nbsp;
                     <a class="about-socials" href="https://www.linkedin.com/in/teo-wen-kai-3264a91aa/" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>LinkedIn
+                        <i class="fa-brands fa-linkedin"></i>
                     </a>
-                    &nbsp; and contribute together on &nbsp;
+                    &nbsp;
                     <a class="about-socials" href="https://github.com/YouEsBee/" target="_blank">
-                        <i class="fa-brands fa-github"></i>Github
+                        <i class="fa-brands fa-github"></i>
                     </a>
-                    !
-                </p>
+                </h2>
             </div>
         </>
         
