@@ -40,7 +40,7 @@ const articles = [
             "Visit the Github Repo: github.com/YouEsBee/CyclePlanner-React": "https://www.github.com/YouEsBee/CyclePlanner-React/"
         },
         image: [
-            BASE_URL + "/images/cyclePlanner.svg"
+            BASE_URL + "/images/cyclePlanner.png"
         ]
     },
     {
@@ -51,6 +51,7 @@ const articles = [
             'Inspired by students not going out on a nature walk frequently, we created this web app for students to take a photo of plants to clock in. It aims to encourage them to go out to experience nature more often rather than just work all day.'
         ],
         link: {
+            "Try it out: https://youesbee.github.io/touch-grass./": "https://youesbee.github.io/touch-grass./",
             "Visit the Github repo: https://github.com/YouEsBee/touch-grass.": "https://github.com/YouEsBee/touch-grass."
         },
         image: [

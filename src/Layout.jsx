@@ -6,7 +6,7 @@ import Footer from "./footer";
 export default function Layout() {
   return (
     <>
-      <div className="min-h-screen flex flex-col dark:bg-[#1b1b1b]">
+      <div className="min-h-screen flex flex-col dark:bg-[#1b1b1b] overflow-hidden">
         <NavBar/>
 
         {/* Padding to prevent nav bar cutting off content */}
