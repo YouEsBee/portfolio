@@ -3,7 +3,7 @@ const jobExp = [
         title: "Web Dev & UI/UX Intern at Shukshuk",
         company: "Shukshuk",
         period: "Sep 26 - Current",
-        shortDesc: "Carried out user survey and testing to redesign and code the Shopify-powered shopping platform to be more appealing and seamless to tourists.",
+        shortDesc: "Conducted market research and user testing to redesign and code the Shopify-powered shopping platform to be more appealing and seamless to tourists.",
         longDesc: ""
     },
     {
