@@ -44,6 +44,22 @@ const articles = [
         ]
     },
     {
+        name: 'captlearn',
+        title: 'CaptLearn for Build, Ship, Shape: Amazon Developer Hackathon 2026',
+        content: [
+            'Tech Stack: Gemini API for video\'s native and translated captions, React Native with Typescript for app dev, Github Pages to host video for streaming, Cloudfared to test backend',
+            'Motivation behind CaptLearn: Duolingo proficiency might not be sufficient. One of the ways to master a language is by watching how others speak. This inspired us to build CaptLearn. Capt - captions; Learn - learning a new language.',
+            'How it works: For the first part of the lesson, the user completes a quiz. For all answers that were correct, the translated word in the captions will be an underscore. This helps to put the user\'s learning into action.'
+        ],
+        link: {
+            'Github Repo: https://github.com/YouEsBee/captlearn-vega': 'https://github.com/YouEsBee/captlearn-vega',
+            'Devpost Submission: https://devpost.com/software/captlearn': 'https://devpost.com/software/captlearn'
+        },
+        image: [
+            BASE_URL + "/images/CaptLearn.png"
+        ]
+    },
+    {
         name: 'touch-grass',
         title: 'Touch Grass for Dum Dumber Hackathon 2026',
         content: [
