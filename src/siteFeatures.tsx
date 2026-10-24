@@ -62,12 +62,12 @@ export const Typewriter: React.FC = () => {
             text: "&gt; I plan. I design.",
             duration: 1.5,
             ease: "none",
-            delay: 0.2,
+            delay: 0.1,
         }).to(textRef.current, {
             text: "&gt; I plan. I design. I code.",
             duration: 1.5,
             ease: "none",
-            delay: 0.3,
+            delay: 0.1,
         })
         
 
