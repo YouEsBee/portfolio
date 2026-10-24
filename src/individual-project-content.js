@@ -45,7 +45,7 @@ const articles = [
     },
     {
         name: 'captlearn',
-        title: 'CaptLearn for Build, Ship, Shape: Amazon Developer Hackathon 2026',
+        title: 'CaptLearn Vega OS TV App for Build, Ship, Shape: Amazon Developer Hackathon 2026',
         content: [
             'Tech Stack: Gemini API for video\'s native and translated captions, React Native with Typescript for app dev, Github Pages to host video for streaming, Cloudfared to test backend',
             'Motivation behind CaptLearn: Duolingo proficiency might not be sufficient. One of the ways to master a language is by watching how others speak. This inspired us to build CaptLearn. Capt - captions; Learn - learning a new language.',
@@ -61,7 +61,7 @@ const articles = [
     },
     {
         name: 'touch-grass',
-        title: 'Touch Grass for Dum Dumber Hackathon 2026',
+        title: 'Touch Grass Web App for Dum Dumber Hackathon 2026',
         content: [
             'Tech Stack: Javascript, Three JS',
             'Inspired by students not going out on a nature walk frequently, we created this web app for students to take a photo of plants to clock in. It aims to encourage them to go out to experience nature more often rather than just work all day.'
@@ -107,7 +107,7 @@ const articles = [
     },
     {
         name: 'emcolour-me',
-        title: 'Emcolour Me for Chrome Developer Challenge 2024 ',
+        title: 'Emcolour Me for Chrome Developer Challenge 2024',
         content: [
             `My challenge in reading charts and maps with very close colours inspired me to create this chrome extension. When I had to complete Geography assignments through my computer, I often had to toggle between Settings and my browser tab, so that I could interpret the map and get back to answering those questions. Constantly switching between the modes is required, as not being completely colourblind, I still needed colour visual cues to proceed with my homework. I hope that this chrome extension can help many other people like me, not just with their homework, but also with browsing in general.`,
             `In addition, colour vision deficiency affects about 1 in 12 men and 1 in 200 women. This is a huge number, for which my program could have a huge impact and improving the lives of many.`,
